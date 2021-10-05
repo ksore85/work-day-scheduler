@@ -18,7 +18,7 @@
       href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./assets/css/style.css"/>
     <title>Work Day Scheduler</title>
   </head>
 
@@ -30,9 +30,66 @@
     </header>
     <div class="container">
       <!-- Timeblocks go here -->
+      <table class="table">
+        <thead>
+          <tr class="time-block">
+            <th scope="col" class="col-1"></th>
+            <th scope="col" class="col-10"></th>
+            <th scope="col" class="col-1"></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="time-block current" id="9">
+            <th scope="row">9AM</th>
+            <td class="task-item"></td>
+            <td class="saveBtn"></td>
+          </tr>
+          <tr class="time-block current" id="10">
+            <th scope="row">10AM</th>
+            <td class="task-item"></td>
+            <td class="saveBtn"></td>
+          </tr>
+          <tr class="time-block current" id="11">
+            <th scope="row">11AM</th>
+            <td class="task-item"></td>
+            <td class="saveBtn"></td>
+          </tr>
+          <tr class="time-block current" id="12">
+            <th scope="row">12PM</th>
+            <td class="task-item"></td>
+            <td class="saveBtn"></td>
+          </tr>
+          <tr class="time-block current" id="13">
+            <th scope="row">1PM</th>
+            <td class="task-item"></td>
+            <td class="saveBtn"></td>
+          </tr>
+          <tr class="time-block current" id="14">
+            <th scope="row">2PM</th>
+            <td class="task-item"></td>
+            <td class="saveBtn"></td>
+          </tr>
+          <tr class="time-block current" id="15">
+            <th scope="row">3PM</th>
+            <td class="task-item"></td>
+            <td class="saveBtn"></td>
+          </tr>
+          <tr class="time-block current" id="16">
+            <th scope="row">4PM</th>
+            <td class="task-item"></td>
+            <td class="saveBtn"></td>
+          </tr>
+          <tr class="time-block current" id="17">
+            <th scope="row">5PM</th>
+            <td class="task-item"></td>
+            <td class="saveBtn"></td>
+          </tr>
+        </tbody>
+      </table>
     </div>
-
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="assets/js/script.js"></script>
   </body>
+  
 </html>
