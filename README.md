@@ -17,7 +17,7 @@ A front end calendar web application for tracking tasks during work hours. The a
  - jQuery
 
 ## Deployed Application
-[The deployed application can be found at this address.]()
+[The deployed application can be found at this address.](https://ksore85.github.io/work-day-scheduler/)
 
 ## License
 [![license-MIT-blue.png](https://img.shields.io/badge/license-MIT-blue)](#License)
