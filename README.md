@@ -1,19 +1,30 @@
-# work-day-scheduler
+## Description
+A front end calendar web application for tracking tasks during work hours. The application enables users to add, edit, and remove tasks from the to-do list. The application is color-coded to allow users to track which tasks are in the past, present and future. Also, saves task data to local storage.
 
-AS AN employee with a busy schedule
-I WANT to add important events to a daily planner
-SO THAT I can manage my time effectively
+## Table of Contents
+- [Features](#features)
+- [Deployed Application](#deployed-application)
+- [License](#license)
+- [Credits](#credits)
+- [Questions, Comments, Suggestions](#questions-comments-suggestions)
 
-GIVEN I am using a daily planner to create a schedule
-WHEN I open the planner
-THEN the current day is displayed at the top of the calendar
-WHEN I scroll down
-THEN I am presented with time blocks for standard business hours
-WHEN I view the time blocks for that day
-THEN each time block is color-coded to indicate whether it is in the past, present, or future
-WHEN I click into a time block
-THEN I can enter an event
-WHEN I click the save button for that time block
-THEN the text for that event is saved in local storage
-WHEN I refresh the page
-THEN the saved events persist
+## Features
+ - HTML
+ - CSS
+ - JavaScript
+ - Bootstrap
+ - Moment.js
+ - jQuery
+
+## Deployed Application
+[The deployed application can be found at this address.]()
+
+## License
+[![license-MIT-blue.png](https://img.shields.io/badge/license-MIT-blue)](#License)
+
+## Credits
+### Developed By
+- [Kyle Sorensen, Front End Developer](https://www.github.com/ksore85)
+
+## Questions, Comments, Suggestions
+Please email [Kyle Sorensen](mailto:ksore85@gmail.com) with any questions, to report any bugs, or to make any feature suggestions. You can also [contact Kyle Sorensen on GitHub](https://www.github.com/ksore85).
